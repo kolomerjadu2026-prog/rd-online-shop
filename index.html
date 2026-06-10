@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RD ONLINE SHOP</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<button id="topBtn">
+⬆
+</button>
+<body>
+
+<!-- HEADER -->
+
+<header class="header">
+
+<div class="logo">
+  <button id="darkBtn">
+🌙
+  </button>
+RD ONLINE SHOP
+</div>
+
+<div class="search-box">
+<input type="text" placeholder="Search Earbuds, Microphone, Charger...">
+<button>🔍</button>
+</div>
+
+<div class="header-links">
+<a href="#">Account</a>
+<a href="#">Orders</a>
+<a href="#">Cart 🛒 <span id="cart-count">0</span></a>
+</div>
+
+</header>
+
+<!-- CATEGORY BAR -->
+
+<nav class="category-bar">
+
+<a href="#">🎧 Earbuds</a>
+<a href="#">🎤 Microphones</a>
+<a href="#">⌚ Smart Watches</a>
+<a href="#">🔋 Power Banks</a>
+<a href="#">🔌 Chargers</a>
+<a href="#">🎮 Gaming</a>
+
+</nav>
+
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>
+Premium Electronics Store
+</h1>
+
+<p>
+Best Earbuds, Microphones & Mobile Accessories
+</p>
+
+<a href="#products" class="shop-btn">
+Shop Now
+</a>
+
+</div>
+
+</section>
+
+<!-- PRODUCTS -->
+
+<section id="products">
+
+<h2>
+Featured Products
+</h2>
+
+<div class="product-grid">
+
+<div class="product-card">
+
+<img src="https://picsum.photos/300/300?1">
+<span class="badge new">NEW</span>
+<button class="wishlist-btn">❤️</button><h3>M19 Earbuds</h3>
+
+<p class="price">
+৳999
+</p>
+
+  <button onclick="addToCart('M19 Earbuds',999)">
+Add To Cart
+  </button>
+
+
+
+</div>
+
+<div class="product-card">
+
+<img src="https://picsum.photos/300/300?2">
+<span class="badge new">NEW</span>
+<button class="wishlist-btn">❤️</button><h3>K8 Microphone</h3>
+
+<p class="price">
+৳1499
+</p>
+
+<button>
+Add To Cart
+</button>
+
+</div>
+
+<div class="product-card">
+
+<img src="https://picsum.photos/300/300?3">
+<span class="badge new">NEW</span>
+<button class="wishlist-btn">❤️</button><h3>Smart Watch X</h3>
+
+<p class="price">
+৳2499
+</p>
+
+<button>
+Add To Cart
+</button>
+
+</div>
+
+<div class="product-card">
+
+<img src="https://picsum.photos/300/300?4">
+<span class="badge new">NEW</span>
+<button class="wishlist-btn">❤️</button><h3>Fast Charger</h3>
+
+<p class="price">
+৳599
+</p>
+
+<button>
+Add To Cart
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<section class="flash-sale">
+
+<h2>⚡ Flash Sale</h2>
+
+<div class="timer">
+Ends In: <span id="countdown">00:00:00</span>
+</div>
+
+<div class="sale-products">
+
+<div class="sale-card">
+<button class="wishlist-btn">❤️</button><h3>M19 Earbuds</h3>
+<p><del>৳1200</del></p>
+<h4>৳999</h4>
+</div>
+
+<div class="sale-card">
+<button class="wishlist-btn">❤️</button><h3>K8 Microphone</h3>
+<p><del>৳1800</del></p>
+<h4>৳1499</h4>
+</div>
+
+<div class="sale-card">
+<button class="wishlist-btn">❤️</button><h3>Smart Watch X</h3>
+<p><del>৳3000</del></p>
+<h4>৳2499</h4>
+</div>
+
+</div>
+
+</section>
+
+<section class="brands">
+
+<h2>Top Brands</h2>
+
+<div class="brand-grid">
+
+<div class="brand-card">JBL</div>
+<div class="brand-card">Oraimo</div>
+<div class="brand-card">Baseus</div>
+<div class="brand-card">Xiaomi</div>
+<div class="brand-card">Awei</div>
+<div class="brand-card">Lenovo</div>
+
+</div>
+
+</section>
+
+<h2>Customer Reviews</h2>
+
+<div class="review-box">
+⭐⭐⭐⭐⭐
+<p>Very good earbuds. Fast delivery.</p>
+<b>Rahim</b>
+</div>
+
+<div class="review-box">
+⭐⭐⭐⭐⭐
+<p>Excellent microphone quality.</p>
+<b>Karim</b>
+</div>
+
+<div class="review-box">
+⭐⭐⭐⭐⭐
+<p>Trusted online shop.</p>
+<b>Sabbir</b>
+</div>
+
+</>
+
+<a href="https://wa.me/8801334800747" class="whatsapp-btn">
+💬
+</a>
+<footer>
+<button class="wishlist-btn">❤️</button>
+<h3>
+RD ONLINE SHOP
+<button class="wishlist-btn">❤️</button></h3>
+
+<p>
+WhatsApp: 01334800747
+</p>
+
+<p>
+Premium Electronics Store Bangladesh
+</p>
+
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
+<section class="slider">
+
+<div class="slides fade">
+<img src="https://picsum.photos/1200/500?1">
+</div>
+<span class="badge new">NEW</span>
+<div class="slides fade">
+<img src="https://picsum.photos/1200/500?2">
+</div>
+
+<div class="slides fade">
+<img src="https://picsum.photos/1200/500?3">
+</div>
+<span class="badge new">NEW</span>
+</section>
